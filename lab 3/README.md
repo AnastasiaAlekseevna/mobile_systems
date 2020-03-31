@@ -20,12 +20,10 @@ __________
 Примечание
 ===========
 Для корректной работы программы необходимо загрузить определенные программные модули и пакеты для Python.
--> sudo apt-get install python3-pip
-С помощью модуля python-docx можно создавать и изменять документы MS Word с расширением .docx. Чтобы установить этот модуль, необходимо выполнить команду
--> pip3 install python-docx
-(pip install docx)
--Также необходимо установить модуль python docxtpl для работы с шаблонами файлов:
--**> pip3 install docxtpl **
--(pip install docxtpl)
+* > `sudo apt-get install python3-pip`
+
+* Может потребоваться установка модуля `python docxtpl` для работы с шаблонами файлов:
+ > `pip3 install docxtpl` 
+ (pip install docxtpl)
 
 
