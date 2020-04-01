@@ -4,7 +4,6 @@ import sys
 import os
 import csv
 import math
-from docxtpl import DocxTemplate
 
 
 data_traff = {'out': [], 'in': []}  # Array for storing incoming, outgoing traffic
