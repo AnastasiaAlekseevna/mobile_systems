@@ -90,6 +90,7 @@ with open("file.csv") as f_obj:
         print('Price_tr = ', Price_tr )
         print('Price_ph = ', Price_ph)
         Sum = Price_tr+Price_ph;
+        Sum = round(math.ceil(Sum * 100) / 100, 2)
 
         arr = math.modf(Sum)
         f_part =  str(num_to_str(int(arr[1]))) + " руб. "
